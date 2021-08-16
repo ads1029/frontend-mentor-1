@@ -62,7 +62,23 @@ content {
   display: inline-block;
 }
 
-option {
+.plan-container {
+  /* display: -webkit-box;
+  display: -ms-flexbox; */
+  display: flex;
+  /* -ms-flex-pack: distribute; */
+      justify-content: space-around;
+  /* -webkit-box-align: center; */
+      /* -ms-flex-align: center; */
+          align-items: center;
+  width: 80%;
+  height: 80px;
+  background: #F7F9FF;
+  border-radius: 11px;
+}
+
+
+.option {
   background-color: #f8f9fe;
   border-radius: 0.5rem;
 
@@ -72,11 +88,12 @@ option {
   width: 100%;
 }
 
-option > a {
+
+.option > a {
   font-size: 10px;
 }
 
-option > a:hover {
+.option > a:hover {
   text-decoration: none;
   color: rgb(114, 113, 231);
 }
@@ -134,3 +151,5 @@ button:hover {
 .cancel_btn:hover {
   color:rgb(34,47,73);
 }
+
+
